@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+
+        <li class="dropdown active">
+                            <a href="Pilates.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Pilates <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="TantricYoga.html">Tantric Yoga</a></li>
+                                <li><a href="Pilates.html">Pilates</a></li>
+                                <li><a href="HotBarre.html">Hot Barre</a></li>
+                            </ul>
+                </li> 
+
+
+
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="LogIn.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+<div class="container text-center">    
+  <h3>Pilates</h3><br>
+ 
+
+    <div class="">
+      <div class="panel panel-success">
+        
+        <div class="panel-body"><img src="1.jpg" class="img-responsive" style="width:300%" alt="Image"></div>
+        <div class="panel-footer">
+          <p><strong>Cost:</strong> </p>
+          <p>$30/Class or Conversation</p>
+          <p>$300 for Subscriber</p>
+          <hr>
+  <p><strong>Schedule</strong><br>
+    7:00 AM - 8:00 AM <br>
+    9:00 AM - 11:00 AM <br>
+    1:00 PM - 2:00 PM <br>
+    4:00 PM - 5:00 PM <br>
+  </p>
+  <hr>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="zhliu22@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="class">
+<input type="hidden" name="amount" value="30.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+      </div>
+    
+
+
+
+    
+</div>
+      </div>
+    </div>
+    
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>Conditions of Use</p>
+</footer>
+
+</body>
+</html>
